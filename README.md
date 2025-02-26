@@ -3,6 +3,9 @@
 ## Overview
 This is a **Jetpack Compose** Android application built with Kotlin that fetches and displays a list of items from [this API](https://fetch-hiring.s3.amazonaws.com/hiring.json). The data is processed and displayed based on the following requirements:
 
+## Design Idea  
+This project design idea is inspired by the **Fetch Offers** section in the Fetch Rewards mobile application. [Link](https://play.google.com/store/apps/details?id=com.fetchrewards.fetchrewards.hop&hl=en_US&shortlink=osquonka&c=HomePage&pid=FetchWebsite_2023_Homepage_Google_Play&af_xp=qr&source_caller=ui) 
+
 ## Features
 - **Data Fetching**: Retrieves JSON data from the provided API.
 - **Data Processing**:
