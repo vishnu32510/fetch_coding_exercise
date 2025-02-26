@@ -52,7 +52,7 @@ fun MyApplicationTheme(
 ) {
     val colorScheme = when {
         dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
-            val context = LocalContext.current
+//            val context = LocalContext.current
 //            if (darkTheme) DarkColorScheme else
                 LightColorScheme
         }

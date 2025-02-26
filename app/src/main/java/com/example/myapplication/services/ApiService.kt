@@ -1,5 +1,6 @@
-package com.example.myapplication
+package com.example.myapplication.services
 
+import com.example.myapplication.models.Item
 import retrofit2.http.GET
 
 interface ApiService {

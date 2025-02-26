@@ -1,4 +1,4 @@
-package com.example.myapplication // Replace with your package name
+package com.example.myapplication.viewmodel // Replace with your package name
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
@@ -7,6 +7,8 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import androidx.compose.runtime.*
+import com.example.myapplication.models.Item
+import com.example.myapplication.RetrofitClient
 
 class ItemViewModel : ViewModel() {
 
