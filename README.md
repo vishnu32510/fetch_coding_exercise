@@ -38,7 +38,7 @@ This project design idea is inspired by the **Fetch Offers** section in the Fetc
 ## Screenshots
 | All                                          | Categories                                   | Favorites                                        |
 |----------------------------------------------|----------------------------------------------|--------------------------------------------------|
-| ![All](screenshots/Screenshot_1.jpeg)        | ![Categories](screenshots/Screenshot_2.jpeg) | ![Favorite](screenshots/Screenshot_3.jpeg)       |
+| ![All](screenshots/Screenshot_1.jpeg)        | ![Categories](screenshots/Screenshot_3.jpeg) | ![Favorite](screenshots/Screenshot_2.jpeg)       |
 
 ---
 

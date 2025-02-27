@@ -36,7 +36,9 @@ enum class TabPage {
 }
 
 @Composable
-fun MainScreen(itemViewModel: ItemViewModel = viewModel()) {
+fun MainScreen(
+    modifier: Modifier = Modifier,
+    itemViewModel: ItemViewModel = viewModel()) {
     var selectedTab by remember { mutableStateOf(TabPage.ALL) }
     val groupedItems by itemViewModel.groupedItems.collectAsState()
     val errorMessage by itemViewModel.errorMessage
@@ -47,20 +49,20 @@ fun MainScreen(itemViewModel: ItemViewModel = viewModel()) {
     if (isLoading) {
         Box(
             contentAlignment = Alignment.Center,
-            modifier = Modifier.fillMaxSize()
+            modifier = modifier.fillMaxSize()
         ) {
             CircularProgressIndicator()
         }
     } else if (errorMessage != null) {
         Box(
             contentAlignment = Alignment.Center,
-            modifier = Modifier.fillMaxSize(),
+            modifier = modifier.fillMaxSize(),
         ) {
             CircularProgressIndicator()
         }
     }else{
         Column(
-            modifier = Modifier
+            modifier = modifier
                 .fillMaxSize()
                 .padding(vertical = 10.dp, horizontal = 10.dp),
             horizontalAlignment = Alignment.Start
