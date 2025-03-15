@@ -60,4 +60,4 @@ This project design idea is inspired by the **Fetch Offers** section in the Fetc
 ### Steps:
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/fetch-rewards-app.git
+   git clone https://github.com/vishnu32510/fetch_coding_exercise.git
